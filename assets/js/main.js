@@ -10,7 +10,6 @@ console.log (secondOutcomeHtml)
 
 //Creating function to randomize numbers for Human and computer
 
-
 function randomInt(min, max){
     return Math.floor(Math.random() * (max - min)) + min
 }
@@ -22,8 +21,6 @@ function printResult(){
 
     let rndComputer = randomInt(1,6)
     console.log(rndComputer)
-
-    console.log(firstOutcomeHtml)
 
     firstOutcomeHtml.innerHTML = rndHuman
     secondOutcomeHtml.innerHTML = rndComputer
@@ -41,7 +38,6 @@ function printResult(){
     } 
 
     clickCounter++
-    
     
     if (clickCounter === 5){
         window.alert("Il gioco d'azzardo fa male, basta!")
