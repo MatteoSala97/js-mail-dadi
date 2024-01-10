@@ -40,7 +40,7 @@ function printResult(){
     clickCounter++
     
     if (clickCounter === 5){
-        window.alert("Il gioco d'azzardo fa male, basta!")
+        window.alert("Il gioco d'azzardo fa male, basta! Se vuoi più tentativi, mi spiace, fattela passare.")
         rollButtonHtml.disabled = true
     }
 }
