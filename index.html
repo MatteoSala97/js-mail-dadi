@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,33 +24,33 @@
                 </div>
             </header>
 
-            <div class="d-flex justify-content-around">
-                <div class="firstOutcome text-center">
-                    <p>Il tuo lancio è:</p>
-                    <!-- placeholder for result -->
+            <div class="d-flex justify-content-around mt-5">
+                <div>
+                    <p>Il tuo magnifico lancio è:</p>
+                    <div class="box d-flex align-items-center justify-content-center fs-1 text-primary">
+                     <!-- placeholder for result -->
+                     <span id="firstOutcome"></span>
+                    </div>
                 </div>
-                <div class="secondOutcome text-center">
-                    <p>Il tuo lancio è:</p>
+                <div>
+                    <p>Il lancio del computer è:</p>
+                    <div class="box d-flex align-items-center justify-content-center fs-1 text-primary">
                     <!-- placeholder for result-->
+                    <span id="secondOutcome"></span>
                 </div> 
-            </div>
-            <div class="text-center mt-5">
-                <button class="btn btn-primary rounded-4">Lancia il tuo dado</button>
-
-                <div class="outcomeWinLose mt-5">
-                    <span>placeholder Hai vinto/perso</span>
                 </div>
+            </div>
+
+            <div class="text-center mt-5 align-items-center">
+                <button id="rollButton" class="btn btn-success rounded-4 border">Lancia il tuo dado</button>
+            </div>
+
+            <div class="box-result m-auto d-flex align-items-center justify-content-center fs-1 text-primary mt-5">
+                <span id="outcomeWinLose">
+                    <!-- placeholder for result -->
+                </span>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
     </main>
     <!-- Boostrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

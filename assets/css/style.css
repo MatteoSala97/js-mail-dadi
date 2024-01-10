@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: #CE5937;
+    background: radial-gradient(ellipse at center, #CE5937 0%, #1C6EA4 62%, #85C59E 100%);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    font-size: 20px;
+
+    height: 1000px;
+}
+
+.box{
+    background-color: #ffffffe6;
+    height: 100px;
+    box-shadow: 8px 15px 15px 8px rgba(0,0,0,0.44);
+}
+
+.box-result{
+    background-color: #ffffffe6;
+    box-shadow: 8px 15px 15px 8px rgba(0,0,0,0.44);
+}
+
+#outcomeWinLose{
+    pointer-events: none;
+}

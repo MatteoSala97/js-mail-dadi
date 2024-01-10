@@ -14,3 +14,29 @@ stampa un messaggio appropriato sull’esito del controllo.
 3. si ma noi cosa vogliamo fare?
 4. torniamo a scrivere in italiano
 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+---
+
+
+Creare variabili per  
+- numero rollato dalla persona (let persona)
+- numero rollato dal computer (let computer)
+- document.getelementbyID (outcomeWinLose)
+  
+
+creare funzione per randomare numero da 1-6 Math.random() per persona e computer 
+
+funzione if (let persona > let computer ){
+
+    outcomeWinLose.innerHtml =  "hai vinto"
+}
+    else if (let persona < let computer){
+
+        outcomeWinLose.innerHtml  = "hai perso"
+    }
+
+    else (){
+         outcomeWinLose.innerHtml  = "hai pareggiato"
+    }
+
+-chiamare buttonHtml
