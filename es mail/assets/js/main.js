@@ -20,9 +20,9 @@ document.querySelector('form').addEventListener('submit', function (e) {
 
     // function that checks if the entered email is in the email list
     if (emailList.includes(enteredEmail)) {
-        resultMessage.innerHTML = "<p class='text-light bg-success'>You are part of the crew!</p>"
+        resultMessage.innerHTML = "<p class='text-light bg-success'>You are part of the crew! :D </p>"
     } else {
-        resultMessage.innerHTML = "<p class='text-light bg-danger'>You are not part of the crew!</p>"
+        resultMessage.innerHTML = "<p class='text-light bg-danger'>You are not part of the crew! :P </p>"
     }
     
 });
