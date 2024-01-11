@@ -27,8 +27,6 @@ function printResult(){
 
     if (rndHuman > rndComputer){
         outcomeWinLoseHtml.innerHTML = "Hai Vinto!"
-
-        console.log(outcomeWinLoseHtml)
     }
     else if (rndHuman < rndComputer){
         outcomeWinLoseHtml.innerHTML = "Hai Perso!"
